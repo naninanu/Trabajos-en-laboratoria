@@ -1,0 +1,99 @@
+.logo{
+	width: 35%;
+}
+nav a{
+	text-decoration: none;
+	color: #BDBDBD;
+}
+
+a:hover{
+	color:blue;
+}
+
+ul {
+	margin: 4% auto;
+}
+li{
+	display: inline-block;
+	margin-left: 15px;
+}
+.hero-img{
+	background-image: url(../img/semilla.jpg);
+	height: 320px;
+}
+.mensaje{
+	height: 210px;
+	padding: 80px 167px;
+	text-align: center;
+
+}
+.metodo{
+background-image: url(../img/metodo.jpg);
+height: 410px;
+}
+
+.fondo{
+	background-image: url(../img/fondo.jpg);
+	height: 410px;
+
+}
+p{
+	font-size: 12px;
+}
+.equipo{
+	height: 250px;
+	border-radius: 100%;
+
+}
+.redes-sociales img{
+	width: 8%;
+	margin-left: 2%;
+}
+
+.blog{
+	background-image: url(../img/fondo2.jpg);
+}
+.play{
+float: left;
+}
+.slider{
+	float: right;
+}
+.box {
+	padding: 0% 5%;
+}
+.tex-blog{
+	padding: 0px 64px;
+
+}
+.box .col-4{
+	padding: 0px 41px;
+} 
+.borde{
+	border:solid 1px white;
+	transition:background-color 2s ease;
+	background-color: #626262;
+
+}
+.borde:hover{
+	background-color: #5c9d55;
+}
+.text-redes{
+	margin: 7% 0% 80% 3%;
+
+}
+.redes{
+	width: 25px;
+	position: relative;
+	left: 90%;
+}
+.sobre{
+	margin-bottom: 3%;
+}
+footer a{
+
+	text-decoration: none;
+}
+.box-footer{
+	float: left;
+}

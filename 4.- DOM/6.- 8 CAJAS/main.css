@@ -1,0 +1,16 @@
+div {
+	height: 100px;
+	width: 100px;
+	border: 1px solid black;
+	background: #808080;
+	margin-bottom: 20px;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+.internas{
+	display: inline-block;
+}
+.contenedora{
+	height: 120px;
+	width: 360px;
+}

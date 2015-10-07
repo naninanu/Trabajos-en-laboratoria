@@ -1,0 +1,128 @@
+html, body {
+	height: 100%;
+	width: 100%;
+}
+
+header{
+	background-color: #FCCE09;
+	height: 100%;
+
+	
+}
+.uno a{
+	text-decoration: none;
+	font-family:'Roboto:400,300';
+	color: white;
+	margin-left: 30px;
+}
+
+nav {
+	position: absolute;
+	right: 0%;
+	top: 30px;
+}
+
+nav ul{
+	list-style-type: none;
+}
+nav li{
+	display: inline-block;
+}
+nav a{
+	text-decoration: none;
+	font-family:'Roboto:400,300';
+	color: white;
+	margin-left: 10px;
+}
+a:hover{
+	color: red;
+}
+.sumate{
+	background:#FCBA43;
+	top: 50px;
+	position: fixed;
+	padding: 20px 30px;
+	left: 10%;
+	z-index: 1;
+	text-decoration: none;
+	font-family:'Roboto:400,300';
+	color: white;
+}
+
+.col-12{
+	color:white;
+	font-size: 24px;
+	position: relative;
+}
+.col-12 p{
+	font-size: 20px;
+
+
+}
+.titulo{
+	padding: 0% 25% 0%;
+	text-align: center;
+	color: white;
+	position: absolute;
+	top:270px;
+	left: 15%;
+}
+
+.sect{
+	background-color: #E4E4E3;
+	padding: 20px;
+}
+.box{
+	height: 500px;
+	width: 400px;
+	background-color: white;
+	padding: 20px;
+	margin: 40px 0px 20px 40px;
+
+}
+.plomo{
+	height: 300px;
+	width: 300px;
+	background-color: #E6E6E6;
+	margin: 0px 25px 20px;
+
+}
+
+.plomo p{
+	font-weight: bold;
+	color: #848484;
+	padding: 125px;
+}
+.orange{
+	width: 100px;
+	height: 30px;
+	background-color: #FCBA43;
+	padding: 5px 0px;
+	text-align: center;
+	margin: 5px 125px;
+
+}
+.orange a{
+font-size: 12px;
+text-decoration: none;
+color: white;
+
+}
+a:hover{
+	color: red;
+}
+h3{
+	color:#848484;
+}
+.texto p{
+	color: #848484;
+
+}
+footer{
+	height: 70px;
+	background: black;
+	padding: 20px 100px;
+}
+footer p{
+	color: white;
+}

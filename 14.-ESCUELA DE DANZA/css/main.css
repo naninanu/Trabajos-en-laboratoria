@@ -1,0 +1,180 @@
+
+.over a {
+padding: 1% 4%;
+color: #192951;
+border-radius: 5px;
+transition: all 1.5s ease;
+}
+
+.over a:hover {
+background-color: #192951;
+color:white;
+transition: all 1.5s ease;
+}
+
+.hero-image {
+background-image: url(../img/dance_1.jpg);
+background-position-y: initial;
+height: 420px;
+}
+
+.hero-image a {
+background-color: #192951;
+padding: 1% 4%;
+border-radius: 5px;
+width: 15%;
+transition: all 1.5s ease;
+}
+
+.box {
+opacity: 0.6;
+}
+
+.box {
+width: 20%;
+}
+
+.box h1 {
+font-size: 3.7em;
+}
+
+.box p, .col-6 p {
+font-size: 0.9em;
+}
+
+.background {
+background-image: url(../img/textura_2.jpg);
+background-size: 25%;
+}
+
+.butter p {
+font-size: 1.5em;
+}
+
+.background img {
+width: 15%;
+}
+
+.background a {
+background-color: #192951;
+padding: 2% 6%;
+font-size: 1.1em;
+width: 35%;
+margin: 0 auto;
+}
+
+.boy-girl {
+position: relative;
+border: 2px solid blue;
+}
+
+.boy-girl .bg-img-block {
+background-position-y: initial;
+width: 50%;  
+height: 370px;
+float: left;
+}
+
+
+.boy {
+background-image: url(../img/instructor_4.jpg);
+border-right: 2px solid blue;
+}
+
+.girl {
+background-image: url(../img/profesor_9.jpg);
+}
+
+.instructores {
+left: 30%;
+width: 40%;
+padding: 2%;
+background-color: #0B1148;
+position: absolute;
+bottom: 0px;
+}
+.boy-girl .bg-img-block:hover {
+background-size: 120%;
+}
+
+.frase p {
+font-size: 2em;
+}
+
+.blue {
+background-color: #192951;
+}
+
+.concept {
+margin-right: 30%;
+}
+
+.small {
+font-size: 0.7em;
+margin-right: 60%;
+}
+.col-6 h4 {
+padding-top: 2%; 
+}
+.google {
+width: 50%;
+}
+.lema{
+	font-size: 2.5em;
+	font-style: oblique;
+	padding:5% 13%;
+}
+.ubication{
+	background-color:#0B1148;
+}
+
+.ubication p{
+	font-size:12px; 
+	font-style: oblique;
+}
+.ubication .text-left{
+	padding-right: 14%;
+}
+.shoes{
+	background-image: url(../img/shoes_1.jpg);
+	background-position-y: initial;
+	background-size: cover;
+	height: 549px;
+	width: 63%;
+	float: right;
+
+}
+.contactanos{
+	padding: 5% 10% 0;
+}
+.formulario {
+	padding: 5% 10%;
+}
+
+.name{
+	width: 30%;
+	height: 43px;
+	margin-bottom: 1%;
+	border: solid 2px #f6f6f6;
+	background:url(http://rexkirby.com/kirbyandson/images/name.svg) no-repeat;
+	}
+.mail{
+	width: 30%;
+	height: 43px;
+	margin-bottom: 1%;
+	border: solid 2px #f6f6f6;
+	background:url(http://rexkirby.com/kirbyandson/images/email.svg) no-repeat;
+}
+.msj{
+	width: 30%;
+	height: 100px;
+	border: solid 2px #f6f6f6;
+	background:url(http://rexkirby.com/kirbyandson/images/comment.svg) no-repeat;
+
+}
+.icono{
+	background-size: 9%;
+	padding: 1% 5%;
+}
+
+/*

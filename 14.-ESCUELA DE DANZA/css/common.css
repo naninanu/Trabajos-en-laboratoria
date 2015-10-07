@@ -1,0 +1,11 @@
+.hero-image a,.background a,.boy-girl a{
+	border-radius: 5px;
+	display: block;
+	color: white;
+}
+
+.boton:hover {
+	background-color: #008AFF;
+	transition: all 1.5s ease;
+	color: white;
+}

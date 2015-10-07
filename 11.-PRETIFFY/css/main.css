@@ -1,0 +1,116 @@
+nav ul{
+	list-style-type: none;
+	float: right;
+	font-size: 16px;
+
+}
+nav li{
+	float: left;
+	margin:50px 30px 15px;
+}
+nav a{
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+
+}
+a:hover{
+	color:yellow; 
+}
+.text-center{
+	text-align: center;
+}
+.hero-image{
+	background-image: url("../images/background.jpg");
+	background-size: 100%;
+}
+
+.logo{
+	padding-top: 10%;
+	padding-bottom: 7%;
+}
+
+.your-name{
+	font-size: 40px;
+	font-family: 'Oswald';
+	color: white;
+	font-weight: 1000;
+}
+.your-tagline{
+	font-size: 20px;
+	font-family: 'Oswald';
+	color: white;
+	font-weight: 500;
+	padding-top: 3%;
+	padding-bottom: 20%;
+}
+.description{
+	background-image: url("../images/tile1.png");
+	background-size: 25%;
+	padding-top: 7%;
+	padding-bottom: 3%;
+
+}
+.about{
+	font-size: 40px;
+	font-family: 'Oswald';
+	color: #A8258D;
+	position: relative;
+	bottom: 20px;
+}
+.image{
+	border:solid 1px black;
+	padding: 5px;
+	width: 75%;
+	margin-right: -20px;
+}
+.col-9 p{
+	position: relative;
+	right: 60px;
+}
+.col-12 p{
+font-family: 'Oswald';
+color: #A8258D;
+ }
+ .my{
+ 	font-size: 35px;
+ 	font-weight: bold;
+ 	margin-top: 7%;
+ 	margin-bottom: 3%;
+ }
+
+ .here{
+ 	font-size: 20px;
+ 	font-weight: bold;
+
+ }
+
+.sub-image img{
+	width: 100%;
+	border-radius: 100%;
+	border:solid 1px #A8258D;
+	padding: 2%;
+	margin-top: 20px;
+}
+footer{
+	background-image: url("../images/tile2.png");
+	background-size: 3%;
+	margin-top: 5%;
+
+}
+.text-footer{
+	font-size: 30px;
+	font-family: 'Oswald';
+	color: #A8258D;
+	margin-top: 10%;
+	margin-bottom: 5%;
+	font-weight: bold;
+}
+.social-media{
+	margin-left: 5%;
+	margin-bottom: 10%;
+	transition:background-color 2s ease;
+}
+.social-media:hover{
+	background-color: pink;
+}

@@ -1,0 +1,41 @@
+html,body{
+	height: 100%;
+	width: 100%;
+}
+
+.hero-image{
+	background-image: url("../img/grupal.jpg");
+	background-position-y: initial;
+	height: 40em;
+}
+.logo{
+	width: 100%
+}
+nav a {
+	text-decoration: none;
+	color: black;
+	float: left;
+	margin-left: 3%;
+	text-transform: uppercase;
+}
+a:hover{
+	color: red;
+}
+nav li{
+	list-style-type: none;
+}
+.sumate a{
+
+	position: fixed;
+	z-index: 1;
+	background: #FCB739;
+	padding: 1% 2%;
+	text-decoration: none;
+	color: black;
+}
+.box img{
+	width: 100%;
+}
+.box{
+	border-bottom: 1px solid black;
+}

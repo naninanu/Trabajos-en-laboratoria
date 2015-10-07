@@ -1,0 +1,149 @@
+.barra{
+	height: 55px;
+	width: 450px;
+	margin: 10px;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+p{
+	font-size: 20px;
+}
+
+.caja{
+	width: 350px;
+	padding: 10px;
+
+ }
+
+.profile{
+	height: 100px;
+	width: 100px;
+}
+ .foto {
+ 	margin: 3px 8px 8px 2px;
+ 	display: inline-block;
+ 	position: relative;
+ 	height: 150px;
+ 	width: 150px;
+ 	}
+
+ .negro {
+ 	background-color: black;
+ 	opacity: 0.5;
+ 	z-index: 1;
+ 	height: 150px;
+ 	width: 150px;
+ 	position: absolute;
+ 	top: 3px;
+ 	left: 1px;
+ }
+
+ div.contenedor p{ 
+ 	font-size: 12px;
+ 	color: white;
+ 	top: 118px;
+ 	left: 45px;
+ 	position: absolute;
+ 	z-index: 1;
+
+ 	}
+ 	div.caja p{
+  width: 350px;
+  padding: 10px;
+  margin: auto;
+  position: relative;
+  right: 170px;
+ 		
+
+
+ }
+.delgada {
+  width: 50px;
+  height: 200px;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  margin: auto;
+  margin-top: 20px;
+
+	
+}
+
+.coders{
+	margin bottom: 5px;
+	height: 20px;
+	position: relative;
+	left: 350px;
+
+
+	
+}
+
+.gruesa{
+	height: 4px;
+	width: 40px;
+	background: black;
+	margin: 10px;
+	position: relative;
+	left: 350px;
+
+}
+
+
+.box {
+	width: 700px;
+	margin: 30px auto;
+	padding: 20px;
+	border: solid 1px #808080;
+
+}
+.circular {
+	border-radius: 100%;
+	margin: 0px auto;
+}
+
+.nombre{
+	font-size: 40px;
+	text-shadow:-5px -5px 5px #aaa;
+}
+
+.texto{
+	padding: 10px 60px;
+}
+.hab {
+	margin: 0px 10px;
+}
+.rect{
+	height: 45px;
+	background: #808080;
+	margin: 20px;
+}
+
+.a{
+	width: 350px;
+}
+
+.b{
+	width: 290px;
+}
+.c{
+	width: 150px;
+}
+
+.letra{
+	position: absolute;
+	margin: 13px;
+	color: white;
+	text-shadow: black 0.1em 0.1em 0.2em;
+}
+.todo {
+	margin: 0px auto;
+	width: 610px;
+	padding: 5px;
+}
+
+.fot {
+	position: relative;
+	margin: 5px;
+	display: inline-block;
+}

@@ -1,0 +1,311 @@
+body, html {
+	width: 100%;
+	height: 100%;
+}
+body {
+  position: relative;
+}
+
+.giro-image {
+	background-color: black;
+	height: 100%;
+	font-family: Pacifico;
+}
+
+.video video {
+	position: absolute;
+	height: 100% ;
+	width: 100%;
+}
+/* Navegador */
+nav{
+	width: 60%;
+	margin: auto;
+
+}
+nav a{
+	font-family: Neoteric-Bold;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+nav .over{
+	z-index: 99;
+	color: black;
+}
+header{
+	width: 100%;
+	position: fixed;
+	z-index: 69;
+	background-color: black;
+	height: 10%;
+	padding: 1%;
+
+}
+.over a{
+	padding: 1% 4%;
+	color: white;
+	border-radius: 5px;
+	transition:all 0.5s ease;
+}
+.over a:hover {
+	background-color: white;
+	color: black;
+	transition: all 0.5s ease;
+}
+/* nombre de la institución */
+ .titulo{
+	position: relative;
+	z-index: 1;
+	padding: 19% 20%;
+	color: white;
+
+}
+.titulo h1{
+	font-family: Pacifico;
+	font-size: 3em;
+}
+.titulo p{
+	font-family: Lalotight;
+	font-size: 1em;
+	text-align: center;
+}
+.contact a{
+	position: relative;
+	z-index: 1;
+	background: #FFD800;
+	padding: 6% 7%;
+	text-decoration: none;
+	color: white;
+	margin: 21%;
+}
+.contact{
+	padding: 10% 30%;
+}
+.scroll-down{
+	height: 40px;
+	width: 45px;
+	margin: 39%;
+	z-index: 1;
+	overflow: scroll;
+}
+/* sección quien somos */
+.fondo-somos{
+	background: url("../img/background/rasga.jpg");
+	background-repeat: 100%;
+}
+.fondo-somos h2{
+	font-weight: bold;
+	font-family: Pacifico;
+	font-size: 3em;
+	text-shadow: -5px -5px 5px #aaa;
+}
+.creditos{
+	font-family: Pacifico;
+	font-size: 16px;
+}
+.text{
+	font-family: LatoHeavy;
+} 
+
+.quiemes-somos{
+	z-index: 99;
+}
+
+.carousel{
+  width:100%;
+}
+.panes{
+  width:500%;
+}
+/*------------------------------------*\
+    $CAROUSEL
+\*------------------------------------*/
+.carousel{
+    overflow:hidden;
+    width:50%;
+    margin: 0 auto;
+    padding: 2%;
+}
+.panes{
+    list-style:none;
+    position:relative;
+    width:200%; /* Number of panes * 100% */
+    overflow:hidden; /* This is used solely to clear floats, it does not add functionality. */
+        
+    -moz-animation:carousel 30s infinite;
+    -webkit-animation:carousel 30s infinite;
+    animation:carousel 30s infinite;
+}
+.panes > li{
+    position:relative;
+    float:left;
+    width:20%; /* 100 / number of panes */
+}
+.carousel img{
+    display:block;
+    width:100%;
+    height: 
+    max-width:100%;
+}
+.carousel h2{
+    font-size:1em;
+    padding:0.5em;
+    position:absolute;
+    right:10px;
+    bottom:10px;
+    left:10px;
+    text-align:right;
+    color:#fff;
+    background-color:rgba(0,0,0,0.75);
+}
+<pre><code>.carousel{
+  width:100%;
+}
+.panes{
+  width: 100%;
+}
+.panes > li{
+  width:<mark>25</mark>%;
+}</code></pre>
+
+li a {
+	color: black;
+}
+/* sección proyectos */
+.bg-projects{
+	background: #2CD836;
+}
+
+.bg-projects ul,li{
+	list-style: none;
+	margin-bottom: 11px;
+}
+.bg-projects h1{
+	font-family: Neoteric-Bold;
+	font-weight: bold;
+	color: #0E376D;
+}
+.bg-projects a{
+	color: black;
+	font-size: 14px;
+	font-family: arial;
+
+}
+/* sección people */
+.people{
+	background: url("../img/background/rasga.jpg");
+	background-repeat: 100%;
+}
+.title{
+	font-weight: bold;
+	font-family: Neoteric-Bold;
+	font-size: 3em;
+	text-shadow: -5px -5px 5px #A5B1C7;
+	text-align: center;
+	color: #0E376D;
+}
+.subtitle{
+	font-weight: bold;
+	font-family:Latolight;
+	text-align: center;
+	color: #0E376D;
+}
+.gente img{
+	border:solid 1px #2E2EFE;
+	border-radius: 100%;
+	width: 80%;
+	padding:2%;
+}
+/* sección cuentas anuales */
+.anual img{
+	width: 200px;
+	height: 200px;
+	border-radius: 100%;
+}
+/* sección co-invest */
+.co-invest{
+	background: url("../img/background/rasga.jpg");
+
+}
+.co{
+font-size: 3.5em;
+}
+iframe{
+	border: 5px groove #FACC2E; 
+	padding:2%;
+}
+.impact{
+	background: url(../img/agua3.gif) no-repeat;
+	background-size: 97%;
+	height: 400px;
+	font-weight: bold;
+	font-family: Pacifico;
+	font-size: 16px;
+	border-radius: 5%;
+
+}
+.impact li{
+	margin: 5%;
+	list-style: none;
+}
+.luces{
+	background: url(../img/flor2.gif) no-repeat;
+	background-size: 97%;
+	height: 365px;
+	font-weight: bold;
+	font-family: Pacifico;
+	font-size: 16px;
+	border-radius: 5%;
+}
+/* sección contactanos */
+
+.fondo-mensaje{
+	background: url(../img/hojas.gif) no-repeat;
+	width: 100%;
+	height: 100%;
+	background-size: 100%;
+	z-index: -1
+
+}
+.fondo-mensaje h1{
+font-size: 3.5em;
+margin:20% 0 10% 0;
+
+}
+.contactame{
+	background-color: rgba(255,255,255,0.5);
+	height: 100%;
+
+}
+
+.fondo-mensaje .col-6 h3{
+	padding: 23%;
+}
+form .col-6{
+	margin-left: 10%;
+	padding: 5%;
+}
+form h1{
+	margin-left: -50%;
+}
+
+form input{
+	width: 380px;
+	height: 30px;
+	padding-left: 8%;
+	margin-bottom: 5%;
+}
+textarea  {
+	padding-left: 7%;
+	margin-left: 10px;
+}
+form p{
+	
+	padding: 10px;
+	background-color: black;
+	border-radius: 5%;
+	width: 380px;
+}
+
+/* footer */
+

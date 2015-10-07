@@ -1,0 +1,109 @@
+/*Global  */
+*{
+	font-family: "Latolight";
+}
+a{
+	text-decoration: none;
+	color: white;
+	list-style: none;
+}
+@font-face{
+	font-family: LatoHeavy;
+	src: url(../fonts/LatoHeavy.ttf);
+}
+@font-face{
+	font-family: Pacifico;
+	src: url(../fonts/Pacifico/Pacifico.ttf);
+}
+@font-face{
+	font-family:Latolight ;
+	src: url(../fonts/Latolight.ttf);
+}
+@font-face{
+	font-family: DolceVita;
+	src: url(../fonts/DolceVita.ttf);
+}
+@font-face{
+	font-family: Neoteric-Bold;
+	src: url(../fonts/Neoteric-Bold.ttf);
+}
+
+/* Shortcuts */
+
+
+.pt-5{
+	padding-top: 5%;
+}
+.pt-3{
+	padding-top: 3%;
+}
+.pd-0{
+	padding: 0;
+}
+.pd-5 {
+	padding: 5%;
+}
+.mg-8 {
+	margin: 8%;
+}
+.pd-5-10{
+	padding: 5% 10%;
+}
+.pd-3-10{
+	padding: 3% 10%;
+}
+.pd-5-20{
+	padding: 5% 20%;
+}
+.pb-5{
+	padding-bottom: 5%;
+}
+.pb-10{
+	padding-bottom: 10%;
+}
+.mg-0{
+	margin: 0;
+}
+.w-100{
+	width: 100%;
+}
+.lh{
+	line-height: 1.5;
+}
+.text-center{
+	text-align: center;
+}
+.text-left{
+	text-align: left;
+}
+.text-white{
+	color: white;
+}
+.text-gray{
+	color: rgb(83, 88, 95);
+}
+.text-blue{
+ color: #192951;
+}
+.font-bold{
+	font-weight: bold;
+}
+
+.a-none-decoration{
+	text-decoration: none;
+	text-align: center;
+}
+.bg-gray{
+	background-color: rgb(244, 244, 244);
+}
+.bg-green{
+background: #2CD836;
+}
+.bg-agua{
+	background: #81F781;
+}
+.bg-img-block{
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}

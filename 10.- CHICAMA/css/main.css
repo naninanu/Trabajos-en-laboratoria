@@ -1,0 +1,70 @@
+
+.naranja{
+	
+	height: 57px;
+	width: 136px;
+	background-color: #FCB739;
+	position: relative;
+	bottom: 790px;
+	left: 20px;
+	text-align: center;
+	padding: 18px;
+
+}
+.logo{
+	height: 57px;
+	width: 363px;
+	position: relative;
+	bottom: 780px;
+	right: 60px;
+}
+
+nav ul{
+	list-style-type: none;
+	float: right;
+	font-size: 16px;
+	position: relative;
+	bottom: 790px;
+	right: 50px;
+
+}
+
+nav li{
+	position: relative;
+	float: left;
+	}
+	nav a{
+
+	text-decoration: none;
+	margin-left: 10px;
+	color: black;
+	font-weight:600;
+
+}
+
+.box{
+	width: 280px;
+}
+.subtitulo{
+	font-weight: 600;
+	font-size: 16px;
+	color: black;
+	width: 280px;
+	height: 20px;
+	border-bottom: solid 1px black;
+	margin-bottom: 100px;
+	text-align: left;
+}
+footer{
+	background: #808080;
+	height: 80px;
+}
+
+footer p{
+	position: relative;
+	top: 40px;
+	left: 170px;
+	color: white;
+	font-weight: 400px;
+
+}
